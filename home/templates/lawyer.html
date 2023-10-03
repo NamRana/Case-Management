@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Welcome to iCoder. A blog for coding enthusiasts">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Lawyer - eCourt Services</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="Photos/satyamev.png" alt="" width="40" height="40" class="d-inline-block align-text-center">
+            eCourt
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/hearing">Check Hearing Date<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/meeting">Meeting<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <div class="mx-2">
+                <button class="btn btn-outline-light" data-toggle="modal" data-target="#loginModal">Logout</button>
+                <button class="btn btn-outline-light" data-toggle="modal" data-target="#signupModal">View
+                    Profile</button>
+            </div>
+
+        </div>
+    </nav>
+
+    <h3 align="center">Register case</h3>
+    <p align="center">
+        <label for="cname">Enter case name</label>
+        <input type="text" id="cname" name="cname"><br>
+        <label for="type">Case type</label>
+        <input type="text" id="type" name="type"><br>
+        <label for="info">Additional information</label>
+        <input type="text" id="info" name="info"><br>
+
+        <!-- enrollment date should be set by current date -->
+
+        <label for="petitioner">Enter petitioner name</label>
+        <input type="text" id="petitioner" name="petitioner"><br>
+        <label for="plawyer">Enter petitioner lawyer Registration number</label>
+        <input type="text" id="plawyer" name="plawyer"><br>
+        <label for="respondent">Enter respondent</label>
+        <input type="text" id="respondent" name="respondent"><br>
+        <label for="rlawyer">Enter respondent lawyer Registration number</label>
+        <input type="text" id="rlawyer" name="rlawyer"><br>
+        <label for="courtid">Enter court ID</label>
+        <input type="text" id="courtid" name="courtid"><br>
+        <label for="fir">Enter FIR number</label>
+        <input type="text" id="fir" name="fir"><br>
+
+        <label for="proof">Upload documents and proofs</label>
+        <input type="file" id="proof" name="proof"><br>
+        
+        <!-- set priority to defaut = 5 -->
+        <!-- status0 = 0 -->
+        <!-- hearing date null -->
+
+        <button class="btn btn-primary" type="submit" id="civil">Civil</button>
+        <button class="btn btn-primary" type="submit" id="criminal">Criminal</button>
+        <!-- based on this CRN will be set automatically -->
+    </p>
+    <footer class="container">
+
+        <h1 align="left">Powered by
+            <img src="Photos/digitalindia.jpg" alt="" width="200" height="100" class="d-inline-block align-text-center">
+            <img src="Photos/digilocker.png" alt="" width="200" height="100" class="d-inline-block align-text-center">
+            <img src="Photos/startup.png" alt="" width="200" height="100" class="d-inline-block align-text-center">
+            <img src="Photos/makeinindia.jpg" alt="" width="200" height="100" class="d-inline-block align-text-center">
+        </h1>
+
+        <p>© 2022-2023 eCourt · <a href="#">Privacy</a> · <a href="#">Terms</a> · <a href="#">Back to top</a></p>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
